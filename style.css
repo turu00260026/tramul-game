@@ -67,12 +67,14 @@ html, body {
     justify-content: center;
     align-items: center;
     overflow: hidden;
+    background-color: #000; /* 画像の余白を黒に */
 }
 
 #scene-image {
     width: 100%;
     height: 100%;
-    object-fit: cover;
+    object-fit: contain; /* 画像全体を表示 */
+    object-position: center;
 }
 
 #textbox-area {
@@ -227,13 +229,16 @@ html, body {
         flex: 2;
         min-height: 40vh;
         max-height: 50vh;
+        background-color: #000; /* 画像の余白を黒に */
     }
     
     #scene-image {
         width: 100%;
         height: 100%;
-        object-fit: contain; /* coverからcontainに変更で全体表示 */
+        object-fit: contain; /* 画像全体を表示 */
         object-position: center;
+        max-width: 100%;
+        max-height: 100%;
     }
     
     #textbox-area {
