@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>とらむる</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div id="game-container">
+        <!-- タイトル画面 -->
+        <div id="title-screen">
+            <img src="./assets/images/title.jpg" alt="タイトル画像" id="title-image">
+            <button id="start-button">ゲームスタート</button>
+        </div>
+
+        <!-- ゲーム本編画面 -->
+        <div id="game-screen" class="hidden">
+            <div id="image-area">
+                <img id="scene-image" src="" alt="シーン画像">
+            </div>
+            <div id="textbox-area">
+                <div id="character-name"></div>
+                <div id="message-text"></div>
+                <div id="choices-container"></div>
+                
+                <button id="back-button">↩ 戻る</button>
+                <!-- ★★★★★★★★★★★★★★★★★★★★★★★★
+                   ★ 追加点：「スタートに戻る」ボタンを追加
+                   ★★★★★★★★★★★★★★★★★★★★★★★★ -->
+                <button id="restart-button" class="hidden">最初から始める</button>
+                <button id="next-button">▼</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

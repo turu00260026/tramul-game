@@ -1,0 +1,1440 @@
+{
+  "start_scene": "title_screen",
+  "scenes": {
+    "title_screen": {
+      "type": "choice",
+      "image": "title.jpg",
+      "messages": [
+        {
+          "name": "",
+          "text": "『とらむる』"
+        }
+      ],
+      "choices": [
+        {
+          "text": "ゲームスタート",
+          "next": "intro_01"
+        }
+      ]
+    },
+    "intro_01": {
+      "type": "text",
+      "image": "gakkou.png",
+      "messages": [
+        {
+          "name": "ナレーション",
+          "text": "カレンダーの4月という文字にも、すっかり見慣れてきた頃。"
+        },
+        {
+          "name": "ナレーション",
+          "text": "高校2年生になって数週間が経った。クラス替えの喧騒も落ち着き、新しいクラスメイトの顔と名前もだいたい一致してきた。"
+        },
+        {
+          "name": "恋頓 祥",
+          "text": "(俺の名前は、恋頓 祥。私立虹ノ咲学園に通う、ごく普通の高校2年生だ)"
+        },
+        {
+          "name": "恋頓 祥",
+          "text": "(変わり映えのしない通学路。聞き慣れたチャイムの音。昨日と同じような、友達とのくだらないおしゃべり)"
+        },
+        {
+          "name": "恋頓 祥",
+          "text": "(退屈なわけじゃない。でも、心のどこかで「何か」を求めている自分がいた。漫画やアニメみたいに、日常が色鮮やかに変わるような、そんな劇的な出会いを――)"
+        }
+      ],
+      "next": "intro_02"
+    },
+    "intro_02": {
+      "type": "text",
+      "image": "gakkou.png",
+      "messages": [
+        {
+          "name": "ナレーション",
+          "text": "キーンコーンカーンコーン..."
+        },
+        {
+          "name": "ナレーション",
+          "text": "昼休みを告げるチャイムが鳴り響き、静かだった教室は一気に賑やかになる。弁当を広げるグループ、購買に走っていくやつら、スマホをいじる女子たち。"
+        },
+        {
+          "name": "ナレーション",
+          "text": "いつもの昼休み。いつもの光景だ。\n祥は、そんな光景を眺めながら、これから始まる、少しだけ特別な日々の予感に、まだ気づいていなかった。"
+        }
+      ],
+      "next": "intro_hina_01"
+    },
+    "intro_hina_01": {
+      "type": "text",
+      "image": "hina_normal.jpg",
+      "messages": [
+        {
+          "name": "ナレーション",
+          "text": "祥が机に突っ伏してため息をついていると、弾けるような声が響いた。"
+        },
+        {
+          "name": "天宮 陽菜",
+          "text": "「ねぇ、君！前の席なんだから、シャキッとしなさいよねっ！」"
+        },
+        {
+          "name": "ナレーション",
+          "text": "振り返ると、そこには腰まである綺麗な金髪ロングヘアの女の子、クラスの人気者、天宮陽菜が立っていた。"
+        },
+        {
+          "name": "天宮 陽菜",
+          "text": "「ん、わかればよろしい！ 私、天宮陽菜。君は？」"
+        },
+        {
+          "name": "恋頓 祥",
+          "text": "「恋頓...祥です」"
+        },
+        {
+          "name": "天宮 陽菜",
+          "text": "「れんとん しょう？ ヘー、カッコイイ名前！ これからよろしくね、祥！」"
+        },
+        {
+          "name": "ナレーション",
+          "text": "彼女はニカッと笑うと、祥の肩をパンと軽く叩いた。太陽みたいに明るくて、少し嵐のように強引な彼女。それが、陽菜との最初の出会いだった。"
+        }
+      ],
+      "next": "intro_shiori_01"
+    },
+    "intro_shiori_01": {
+      "type": "text",
+      "image": "shiori_normal.jpg",
+      "messages": [
+        {
+          "name": "ナレーション",
+          "text": "騒がしい教室を抜け出し、祥が図書室に向かうと、カウンターで静かに本を読む女子生徒がいた。プラチナブロンドのボブカットが美しい、学年トップの優等生、白鳥栞だ。"
+        },
+        {
+          "name": "ナレーション",
+          "text": "祥が静かに通り過ぎようとしたその時、彼女が本を落としそうになり、バランスを崩す。祥は無意識に駆け寄り、本をキャッチし、彼女の腕を支えた。"
+        },
+        {
+          "name": "恋頓 祥",
+          "text": "「だ、大丈夫？」"
+        },
+        {
+          "name": "白鳥 栞",
+          "text": "「……！ あ、ありがとうございます。助かりました…恋頓くん、ですよね。同じ学年の」"
+        },
+        {
+          "name": "恋頓 祥",
+          "text": "「うん。白鳥さんこそ」"
+        },
+        {
+          "name": "白鳥 栞",
+          "text": "「私のこと、知ってたんですね。ふふ、少し嬉しいです」"
+        },
+        {
+          "name": "ナレーション",
+          "text": "そう言ってはにかむように微笑む彼女は、噂に聞く「完璧な優等生」とは少し違う、親しみやすい女の子に見えた。"
+        }
+      ],
+      "next": "intro_kirari_01"
+    },
+    "intro_kirari_01": {
+      "type": "text",
+      "image": "kirari_normal.jpg",
+      "messages": [
+        {
+          "name": "ナレーション",
+          "text": "放課後、親友の法太と帰ろうとしていると、中庭で空を見上げている、ツインおさげの不思議な少女、星野きらりが目に入った。法太は「関わるなよ」と忠告するが、気になった祥は彼女に声をかける。"
+        },
+        {
+          "name": "恋頓 祥",
+          "text": "「ねぇ、何してるの？」"
+        },
+        {
+          "name": "星野 きらり",
+          "text": "「……あのね、流れ星のかけらを、集めてるの」"
+        },
+        {
+          "name": "ナレーション",
+          "text": "彼女はそう言うと、何かを掴むようにパッと手を握りしめ、花が咲くように笑った。"
+        },
+        {
+          "name": "星野 きらり",
+          "text": "「あなた、私のこと見えてるんだね。すごい！ お名前、なんていうの？」"
+        },
+        {
+          "name": "恋頓 祥",
+          "text": "「……恋頓 祥だけど」"
+        },
+        {
+          "name": "星野 きらり",
+          "text": "「れんとん しょうくん！ 私、星野きらり。よろしくね！」"
+        },
+        {
+          "name": "ナレーション",
+          "text": "太陽、聖女、そして流れ星。三者三様のヒロインたちとの出会いを果たし、祥の少しだけ特別な学園生活が、今、幕を開けた。"
+        }
+      ],
+      "next": "intro_choice_01"
+    },
+    "intro_choice_01": {
+      "type": "choice",
+      "image": "sannin.jpg",
+      "messages": [
+        {
+          "name": "ナレーション",
+          "text": "3人との出会いを果たした祥。\n物語を進めたいのですが、次は誰とのエピソードから始めますか？"
+        }
+      ],
+      "choices": [
+        {
+          "text": "隣の席の陽菜と、教室で話す。",
+          "next": "hina_event1_01"
+        },
+        {
+          "text": "図書室で栞と再会する。",
+          "next": "shiori_event1_01"
+        },
+        {
+          "text": "帰り道、きらりが後をついてくる。",
+          "next": "kirari_event1_01"
+        }
+      ]
+    },
+    "hina_event1_01": {
+      "type": "text",
+      "image": "hina_normal.jpg",
+      "messages": [
+        {
+          "name": "ナレーション",
+          "text": "数日後の昼休み。祥が親友の法太とアニメの話で盛り上がっていると、隣の席の陽菜が会話に入ってくる。意外にも彼女も同じアニメを見ており、二人は意気投合する。"
+        },
+        {
+          "name": "天宮 陽菜",
+          "text": "「ねぇ、祥！今度の日曜日、何か予定ある？」「じゃあさ、デートしない？ 駅前に新しくできたパンケーキ屋さん、行きたいんだよね。付き合ってよ！」"
+        }
+      ],
+      "next": "hina_event1_choice1"
+    },
+    "hina_event1_choice1": {
+      "type": "choice",
+      "image": "hina_normal.jpg",
+      "messages": [
+        {
+          "name": "天宮 陽菜",
+          "text": "「じゃあさ、デートしない？ 駅前に新しくできたパンケーキ屋さん、行きたいんだよね。付き合ってよ！」"
+        }
+      ],
+      "choices": [
+        {
+          "text": "「わ、わかった。行こう、パンケーキ屋！」と、勢いでOKする。",
+          "effects": {
+            "hina_love": 1
+          },
+          "next": "hina_event1_confirm_A"
+        },
+        {
+          "text": "「なんで俺なの？」と、理由を尋ねてみる。",
+          "effects": {
+            "hina_love": 1
+          },
+          "next": "hina_event1_confirm_B"
+        },
+        {
+          "text": "「法太も一緒に行かないか？」と、親友を巻き込もうとする。",
+          "effects": {
+            "hina_love": -1
+          },
+          "next": "hina_event1_cancel"
+        }
+      ]
+    },
+    "hina_event1_confirm_A": {
+      "type": "text",
+      "image": "hina_normal.jpg",
+      "messages": [
+        {
+          "name": "ナレーション",
+          "text": "陽菜は大喜びし、連絡先を交換。デートの約束が確定する。"
+        }
+      ],
+      "next": "hina_event1_02"
+    },
+    "hina_event1_confirm_B": {
+      "type": "text",
+      "image": "hina_normal.jpg",
+      "messages": [
+        {
+          "name": "天宮 陽菜",
+          "text": "（祥くんって、面白いから）"
+        },
+        {
+          "name": "ナレーション",
+          "text": "陽菜はそう耳打ちし、デートの約束を承諾する。"
+        }
+      ],
+      "next": "hina_event1_02"
+    },
+    "hina_event1_cancel": {
+      "type": "text",
+      "image": "hina_normal.jpg",
+      "messages": [
+        {
+          "name": "天宮 陽菜",
+          "text": "「……今のは忘れて！」"
+        },
+        {
+          "name": "ナレーション",
+          "text": "陽菜は傷ついた顔で言い、デートの約束は白紙になる。陽菜とのイベントはここで終了する。"
+        }
+      ],
+      "next": "ask_next_event1"
+    },
+    "hina_event1_02": {
+      "type": "text",
+      "image": "hina_normal.jpg",
+      "messages": [
+        {
+          "name": "ナレーション",
+          "text": "日曜日、祥は陽菜とパンケーキ屋へデートに行く。私服姿の陽菜の可愛さに圧倒されながらも、二人は楽しい時間を過ごす。運ばれてきたパンケーキを前に、陽菜は幸せそうにしている。"
+        },
+        {
+          "name": "天宮 陽菜",
+          "text": "「んー、おいしー！」"
+        },
+        {
+          "name": "ナレーション",
+          "text": "幸せそうにパンケーキを頬張る陽菜。その口の端にクリームが少しついている。"
+        }
+      ],
+      "next": "hina_event1_choice2"
+    },
+    "hina_event1_choice2": {
+      "type": "choice",
+      "image": "hina_normal.jpg",
+      "messages": [
+        {
+          "name": "ナレーション",
+          "text": "彼女の口の端にクリームがついている。どうしようか？"
+        }
+      ],
+      "choices": [
+        {
+          "text": "「陽菜、口の横、ついてるぞ」と、ナプキンを差し出す。",
+          "effects": {
+            "hina_love": 1
+          },
+          "next": "hina_event1_end_A"
+        },
+        {
+          "text": "無言で、自分の親指で彼女の口元のクリームをそっと拭ってやる。",
+          "effects": {
+            "hina_love": 2
+          },
+          "next": "hina_event1_end_B"
+        },
+        {
+          "text": "「はは、子供みたいだな」と、からかう。",
+          "effects": {
+            "hina_love": -1
+          },
+          "next": "hina_event1_end_C"
+        }
+      ]
+    },
+    "hina_event1_end_A": {
+      "type": "text",
+      "image": "hina_normal.jpg",
+      "messages": [
+        {
+          "name": "天宮 陽菜",
+          "text": "「え、どこ？あ、ほんとだ。ありがと！」"
+        },
+        {
+          "name": "ナレーション",
+          "text": "陽菜は少し照れながらも、祥のスマートな対応に好感を持つ。二人の会話はさらに弾み、穏やかで楽しいデートになる。"
+        }
+      ],
+      "next": "ask_next_event1"
+    },
+    "hina_event1_end_B": {
+      "type": "text",
+      "image": "hina_normal.jpg",
+      "messages": [
+        {
+          "name": "ナレーション",
+          "text": "陽菜の動きが止まり、顔を真っ赤にして俯いてしまう。"
+        },
+        {
+          "name": "天宮 陽菜",
+          "text": "「……ばか」"
+        },
+        {
+          "name": "ナレーション",
+          "text": "か細い声でそう呟く彼女の耳まで赤くなっているのを見て、祥の心臓も大きく鳴り響く。この出来事をきっかけに、二人の距離は急速に縮まる。"
+        }
+      ],
+      "next": "ask_next_event1"
+    },
+    "hina_event1_end_C": {
+      "type": "text",
+      "image": "hina_normal.jpg",
+      "messages": [
+        {
+          "name": "天宮 陽菜",
+          "text": "「なっ…！ 子供じゃないもん！」"
+        },
+        {
+          "name": "ナレーション",
+          "text": "陽菜は少しむくれてしまい、店の雰囲気が少しだけ気まずくなる。デートは続くが、二人の間にわずかな壁ができてしまう。"
+        }
+      ],
+      "next": "ask_next_event1"
+    },
+    "shiori_event1_01": {
+      "type": "text",
+      "image": "shiori_normal.jpg",
+      "messages": [
+        {
+          "name": "ナレーション",
+          "text": "数日後、祥は図書室で栞と再会する。彼女は先日のお礼をしたいと申し出てくる。"
+        },
+        {
+          "name": "白鳥 栞",
+          "text": "「私の気が済みませんので…。それに、もう少しだけ、恋頓くんとお話してみたい、です」"
+        }
+      ],
+      "next": "shiori_event1_choice1"
+    },
+    "shiori_event1_choice1": {
+      "type": "choice",
+      "image": "shiori_normal.jpg",
+      "messages": [
+        {
+          "name": "白鳥 栞",
+          "text": "「もう少しだけ、恋頓くんとお話してみたい、です」"
+        }
+      ],
+      "choices": [
+        {
+          "text": "「わかった。それじゃあ、お言葉に甘えようかな」と、素直に受け入れる。",
+          "effects": {
+            "shiori_love": 2
+          },
+          "next": "shiori_event1_end_A"
+        },
+        {
+          "text": "「お礼なんていいから、またここで会ったら話さない？」と、気軽な関係を提案する。",
+          "effects": {
+            "shiori_love": 1
+          },
+          "next": "shiori_event1_end_B"
+        },
+        {
+          "text": "「俺みたいなのと話しても、つまらないと思うけど…」と、少し卑下してしまう。",
+          "effects": {
+            "shiori_love": -1
+          },
+          "next": "shiori_event1_end_C"
+        }
+      ]
+    },
+    "shiori_event1_end_A": {
+      "type": "text",
+      "image": "shiori_normal.jpg",
+      "messages": [
+        {
+          "name": "ナレーション",
+          "text": "栞は嬉しそうに微笑み、お礼としてオススメのミステリー小説を貸し出す。"
+        },
+        {
+          "name": "白鳥 栞",
+          "text": "「感想、聞いてみたいです」"
+        },
+        {
+          "name": "ナレーション",
+          "text": "彼女の言葉から、二人の間に「本の貸し借り」という特別な繋がりが生まれる。"
+        }
+      ],
+      "next": "ask_next_event1"
+    },
+    "shiori_event1_end_B": {
+      "type": "text",
+      "image": "shiori_normal.jpg",
+      "messages": [
+        {
+          "name": "白鳥 栞",
+          "text": "「ふふっ…面白い方なのですね」"
+        },
+        {
+          "name": "ナレーション",
+          "text": "栞はクスリと笑う。"
+        },
+        {
+          "name": "白鳥 栞",
+          "text": "「では、ここだけの、秘密の約束、です」"
+        },
+        {
+          "name": "ナレーション",
+          "text": "二人は「図書室で会う友人」となり、特別な関係がゆっくりと始まる。"
+        }
+      ],
+      "next": "ask_next_event1"
+    },
+    "shiori_event1_end_C": {
+      "type": "text",
+      "image": "shiori_normal.jpg",
+      "messages": [
+        {
+          "name": "ナレーション",
+          "text": "栞の顔から表情が消え、「…結構です」と冷たく言い放つ。"
+        },
+        {
+          "name": "ナレーション",
+          "text": "祥の不用意な一言は彼女のプライドを傷つけ、二人の間には明確な壁ができてしまう。"
+        }
+      ],
+      "next": "ask_next_event1"
+    },
+    "kirari_event1_01": {
+      "type": "text",
+      "image": "kirari_normal.jpg",
+      "messages": [
+        {
+          "name": "ナレーション",
+          "text": "ある日の帰り道、祥はきらりに後をつけられていることに気づく。問い詰めると、彼女は悪びれもせず、不思議なことを言う。"
+        },
+        {
+          "name": "星野 きらり",
+          "text": "「恋頓くんの周り、キラキラしてるのが見えるの。七色に光ってて、とっても綺麗。だから、見てたの」"
+        }
+      ],
+      "next": "kirari_event1_choice1"
+    },
+    "kirari_event1_choice1": {
+      "type": "choice",
+      "image": "kirari_normal.jpg",
+      "messages": [
+        {
+          "name": "星野 きらり",
+          "text": "「恋頓くんの周り、キラキラしてるのが見えるの。だから、見てたの」"
+        }
+      ],
+      "choices": [
+        {
+          "text": "「そっか。俺、キラキラしてるのか。嬉しいな」と、彼女の世界観に乗っかってみる。",
+          "effects": {
+            "kirari_love": 2
+          },
+          "next": "kirari_event1_end_A"
+        },
+        {
+          "text": "「キラキラって何のこと？ もっと詳しく教えて」と、真面目に質問してみる。",
+          "effects": {
+            "kirari_love": 1
+          },
+          "next": "kirari_event1_end_B"
+        },
+        {
+          "text": "「ごめん、ちょっとよくわからないや…」と、正直に困惑を伝える。",
+          "effects": {
+            "kirari_love": -1
+          },
+          "next": "kirari_event1_end_C"
+        }
+      ]
+    },
+    "kirari_event1_end_A": {
+      "type": "text",
+      "image": "kirari_normal.jpg",
+      "messages": [
+        {
+          "name": "星野 きらり",
+          "text": "「祥くんは、やっぱり特別だ！」"
+        },
+        {
+          "name": "ナレーション",
+          "text": "きらりの表情が満開の花のように輝き、大喜びする。彼女はお礼として「涙のかけら」という青いビー玉をくれ、祥は彼女にとって最初の「理解者」になる。"
+        }
+      ],
+      "next": "ask_next_event1"
+    },
+    "kirari_event1_end_B": {
+      "type": "text",
+      "image": "kirari_normal.jpg",
+      "messages": [
+        {
+          "name": "ナレーション",
+          "text": "きらりは一生懸命に「キラキラ」について説明してくれる。話を聞いてくれた祥にすっかり懐き、翌日から「今日のキラキラは○○色だよ！」と報告してくるようになる。"
+        }
+      ],
+      "next": "ask_next_event1"
+    },
+    "kirari_event1_end_C": {
+      "type": "text",
+      "image": "kirari_normal.jpg",
+      "messages": [
+        {
+          "name": "ナレーション",
+          "text": "きらりの輝いていた瞳がすっと光を失い、「...そっか。ごめんなさい」と悲しそうな顔で去っていく。彼女は祥を避けるようになり、二人の間に距離ができてしまう。"
+        }
+      ],
+      "next": "ask_next_event1"
+    },
+    "ask_next_event1": {
+      "type": "logic",
+      "conditions": [
+        {
+          "if": "eventFlags.hina_event1_cleared && eventFlags.shiori_event1_cleared && eventFlags.kirari_event1_cleared",
+          "goto": "check_horoniga_end"
+        }
+      ],
+      "default_goto": "ask_next_event1_choice"
+    },
+    "ask_next_event1_choice": {
+      "type": "choice",
+      "image": "gakkou.png",
+      "messages": [
+        {
+          "name": "ナレーション",
+          "text": "さて、次は誰と会いますか？"
+        }
+      ],
+      "choices": [
+        {
+          "text": "陽菜のイベント",
+          "condition": "!eventFlags.hina_event1_cleared",
+          "next": "hina_event1_01"
+        },
+        {
+          "text": "栞のイベント",
+          "condition": "!eventFlags.shiori_event1_cleared",
+          "next": "shiori_event1_01"
+        },
+        {
+          "text": "きらりのイベント",
+          "condition": "!eventFlags.kirari_event1_cleared",
+          "next": "kirari_event1_01"
+        }
+      ]
+    },
+    "check_horoniga_end": {
+      "type": "logic",
+      "conditions": [
+        {
+          "if": "loveMeters.hina_love <= -1 && loveMeters.shiori_love <= -1 && loveMeters.kirari_love <= -1",
+          "goto": "ending_horoniga"
+        }
+      ],
+      "default_goto": "interlude_01"
+    },
+    "interlude_01": {
+      "type": "text",
+      "image": "gakkou.png",
+      "messages": [
+        {
+          "name": "ナレーション",
+          "text": "5月、6月と季節は過ぎ、中間テストの喧騒や、梅雨の湿った空気が、俺たちの日常を通り過ぎていった。"
+        },
+        {
+          "name": "ナレーション",
+          "text": "陽菜、栞、きらり。\n彼女たちとの関係は、あの日を境に、少しずつ、でも確実に形を変え始めていた。"
+        },
+        {
+          "name": "ナレーション",
+          "text": "ただのクラスメイトだったはずの距離が縮んでいる。\nそして、夏を間近に控えた、ある日の放課後だった……。"
+        }
+      ],
+      "next": "check_event2_start"
+    },
+    "check_event2_start": {
+      "type": "logic",
+      "conditions": [
+        {
+          "if": "loveMeters.hina_love >= 0",
+          "goto": "hina_event2_01"
+        }
+      ],
+      "default_goto": "check_event2_shiori"
+    },
+    "hina_event2_01": {
+      "type": "text",
+      "image": "hina_normal.jpg",
+      "messages": [
+        {
+          "name": "ナレーション",
+          "text": "ある日の放課後、祥は立ち入り禁止のはずの屋上で、一人寂しそうに空を眺める陽菜を見つける。その目元は少し潤んでいた。"
+        },
+        {
+          "name": "天宮 陽菜",
+          "text": "「私、本当は、すっごく臆病で、一人になるのが怖くて…」"
+        },
+        {
+          "name": "ナレーション",
+          "text": "彼女は、中学時代に不用意な一言で親友を深く傷つけてしまい、それ以来、人と深く関わるのが怖くなったというトラウマを、涙ながらに祥に打ち明ける。"
+        }
+      ],
+      "next": "hina_event2_choice1"
+    },
+    "hina_event2_choice1": {
+      "type": "choice",
+      "image": "hina_normal.jpg",
+      "choices": [
+        {
+          "text": "「そっか。話してくれて、ありがとう」と、静かに彼女の頭を撫でる。",
+          "effects": {
+            "hina_love": 3
+          },
+          "next": "hina_event2_end_A"
+        },
+        {
+          "text": "「その親友に、もう一度会いに行ってみよう」と、前向きな行動を提案する。",
+          "effects": {
+            "hina_love": -1
+          },
+          "next": "hina_event2_end_B"
+        },
+        {
+          "text": "「俺は、陽菜のこと嫌いになったりしないよ」と、まっすぐな言葉で励ます。",
+          "effects": {
+            "hina_love": 1
+          },
+          "next": "hina_event2_end_C"
+        }
+      ]
+    },
+    "hina_event2_end_A": {
+      "type": "text",
+      "image": "hina_normal.jpg",
+      "messages": [
+        {
+          "name": "ナレーション",
+          "text": "祥の大きな手が、優しく陽菜の頭に置かれる。その温かさに、こらえていた感情が一気に溢れ出し、陽菜は子供のように声を上げて泣きじゃくった。祥は何も言わず、ただ静かに、彼女の震える背中を撫で続ける。"
+        },
+        {
+          "name": "ナレーション",
+          "text": "やがて顔を上げた陽菜の目元は真っ赤だったが、その表情はどこか吹っ切れたように晴れやかだった。"
+        },
+        {
+          "name": "天宮 陽菜",
+          "text": "「……ありがと、祥。……あんたの前だと、なんか、素直になれるや」"
+        },
+        {
+          "name": "ナレーション",
+          "text": "はにかむように笑う彼女は、もう「クラスの太陽」の仮面を被ってはいない。ありのままの天宮陽菜だった。この瞬間、二人の心には誰にも壊せない絶対的な信頼が生まれた。この夕焼けの屋上での出来事が、二人の関係を本当の意味で特別なものへと変えていくことになる。"
+        }
+      ],
+      "next": "check_event2_shiori"
+    },
+    "hina_event2_end_B": {
+      "type": "text",
+      "image": "hina_normal.jpg",
+      "messages": [
+        {
+          "name": "ナレーション",
+          "text": "祥の言葉に、陽菜の顔から血の気が引く。彼女にとって、それは最も聞きたくない、正論という名のナイフだった。"
+        },
+        {
+          "name": "天宮 陽菜",
+          "text": "「……っ！ 祥には、私の気持ちなんてわからないよ！」"
+        },
+        {
+          "name": "ナレーション",
+          "text": "彼女はそう叫ぶと、祥を突き放すようにして屋上から走り去ってしまう。翌日から、陽菜が祥に向ける笑顔は消えた。教室で目が合っても、気まずそうに逸らされる。二人の間にできた溝は、出会った頃よりもずっと深く、そして冷たいものになってしまった。"
+        }
+      ],
+      "next": "check_event2_shiori"
+    },
+    "hina_event2_end_C": {
+      "type": "text",
+      "image": "hina_normal.jpg",
+      "messages": [
+        {
+          "name": "ナレーション",
+          "text": "祥のまっすぐな言葉が、陽菜の心にじんわりと染み込んでいく。俯いていた顔を上げると、その瞳は潤んだままだったが、頬は少しだけ赤らんでいた。"
+        },
+        {
+          "name": "天宮 陽菜",
+          "text": "「……ばか。当たり前じゃん……。でも、……ありがと」"
+        },
+        {
+          "name": "ナレーション",
+          "text": "彼女は照れ隠しのようにそっぽを向くが、その声は確かに元気を取り戻していた。この日を境に、二人の関係は友達以上、恋人未満のものへと変わっていく。しかし、彼女の心に深く根差した過去のトラウマは、まだ解決されないまま燻り続けている。祥は、彼女の本当の笑顔を取り戻すには、まだ何かが足りないと感じていた。"
+        }
+      ],
+      "next": "check_event2_shiori"
+    },
+    "check_event2_shiori": {
+      "type": "logic",
+      "conditions": [
+        {
+          "if": "loveMeters.shiori_love >= 0",
+          "goto": "shiori_event2_01"
+        }
+      ],
+      "default_goto": "check_event2_kirari"
+    },
+    "shiori_event2_01": {
+      "type": "text",
+      "image": "shiori_normal.jpg",
+      "messages": [
+        {
+          "name": "ナレーション",
+          "text": "ある日の放課後、祥は校舎から聞こえるピアノの音に導かれ、旧音楽室を覗く。そこにいたのは、一心不乱にピアノを弾く栞だった。その表情は喜びと苦しみが入り混じった、見たこともない真剣なものだった。"
+        },
+        {
+          "name": "白鳥 栞",
+          "text": "「忘れ、て…お願いだから、今のことは、忘れて…！」"
+        },
+        {
+          "name": "ナレーション",
+          "text": "彼女は青ざめ、今にも泣き出しそうに取り乱す。"
+        }
+      ],
+      "next": "shiori_event2_choice1"
+    },
+    "shiori_event2_choice1": {
+      "type": "choice",
+      "image": "shiori_normal.jpg",
+      "choices": [
+        {
+          "text": "「忘れられないよ。すごく綺麗だったから」と、素直な感想を伝える。",
+          "effects": {
+            "shiori_love": 3
+          },
+          "next": "shiori_event2_end_A"
+        },
+        {
+          "text": "「ごめん、見てはいけないものを見た」と、すぐにその場を立ち去ろうとする。",
+          "effects": {
+            "shiori_love": -1
+          },
+          "next": "shiori_event2_end_B"
+        },
+        {
+          "text": "「俺も、誰にも言えない秘密があるんだ」と、自分の話をして共感を示す。",
+          "effects": {
+            "shiori_love": 1
+          },
+          "next": "shiori_event2_end_C"
+        }
+      ]
+    },
+    "shiori_event2_end_A": {
+      "type": "text",
+      "image": "shiori_normal.jpg",
+      "messages": [
+        {
+          "name": "ナレーション",
+          "text": "祥のまっすぐな言葉に、栞の瞳が大きく見開かれる。親に否定され、誰にも理解されないと諦めていたたった一つの宝物。それを、祥は「綺麗だった」と言ってくれた。"
+        },
+        {
+          "name": "白鳥 栞",
+          "text": "「……っ、……う、ぅ……」"
+        },
+        {
+          "name": "ナレーション",
+          "text": "堪えきれなくなった涙が、美しい頬を伝って鍵盤に落ちる。それは、ずっと一人で抱えてきた孤独と、初めて理解された喜びが入り混じった、美しい涙だった。月明かりが差し込む旧音楽室で、二人は初めて本当の意味で心を通わせた。彼女にとって、祥は唯一無二の理解者になったのだ。"
+        }
+      ],
+      "next": "check_event2_kirari"
+    },
+    "shiori_event2_end_B": {
+      "type": "text",
+      "image": "shiori_normal.jpg",
+      "messages": [
+        {
+          "name": "ナレーション",
+          "text": "祥が背を向け、扉に手をかけた瞬間、栞の絶望したような声が追いかけてきた。"
+        },
+        {
+          "name": "白鳥 栞",
+          "text": "「……待って！ 行かないで……！」"
+        },
+        {
+          "name": "ナレーション",
+          "text": "しかし、祥は彼女のプライバシーを尊重するあまり、その場を立ち去ってしまう。彼の配慮は、完全に裏目に出ていた。栞にとって祥の行動は、自分のすべてを「拒絶」されたのと同じだったのだ。翌日から、旧音楽室からピアノの音が聞こえることはなくなった。図書室で会っても、栞は壁を作るように固く目を伏せる。祥が彼女の聖域に踏み込んでしまった事実は、二人の間に修復しがたいほど重く、気まずい空気を生み出してしまった。"
+        }
+      ],
+      "next": "check_event2_kirari"
+    },
+    "shiori_event2_end_C": {
+      "type": "text",
+      "image": "shiori_normal.jpg",
+      "messages": [
+        {
+          "name": "ナレーション",
+          "text": "祥の意外な言葉に、取り乱していた栞の動きが止まる。祥は、自分がアニメや漫画が好きで、それを少し恥ずかしく思っていることなどを、たどたどしく話した。"
+        },
+        {
+          "name": "白鳥 栞",
+          "text": "「ふふっ……。あなたも、秘密を抱えているのですね」"
+        },
+        {
+          "name": "ナレーション",
+          "text": "そう言って微笑んだ彼女の顔には、もう怯えの色はなかった。この日を境に、旧音楽室は二人だけの「秘密基地」となる。二人は互いの夢や悩みを語り合うが、栞が「親の期待に逆らってまで夢を追う」という大きな一歩を踏み出すには至らない。二人の関係は心地よかったが、どこか停滞したまま、時間は過ぎていった。"
+        }
+      ],
+      "next": "check_event2_kirari"
+    },
+    "check_event2_kirari": {
+      "type": "logic",
+      "conditions": [
+        {
+          "if": "loveMeters.kirari_love >= 0",
+          "goto": "kirari_event2_01"
+        }
+      ],
+      "default_goto": "interlude_final"
+    },
+    "kirari_event2_01": {
+      "type": "text",
+      "image": "kirari_normal.jpg",
+      "messages": [
+        {
+          "name": "ナレーション",
+          "text": "ある日の放課後、きらりは祥を学校の裏手にある秘密の場所に連れて行く。そこには、彼女が集めたガラクタばかりの「宝物」が入った古い木箱があった。"
+        },
+        {
+          "name": "星野 きらり",
+          "text": "「みんな、『変なもの集めてるね』って笑うの。だから、誰にも見せたことなかったんだ。祥くんが、初めて」"
+        },
+        {
+          "name": "ナレーション",
+          "text": "彼女は、自分の「世界」そのものである宝箱を、祥にだけ見せてくれたのだ。"
+        }
+      ],
+      "next": "kirari_event2_choice1"
+    },
+    "kirari_event2_choice1": {
+      "type": "choice",
+      "image": "kirari_normal.jpg",
+      "choices": [
+        {
+          "text": "「すごいじゃないか！ 俺にも何か一つ、物語を教えてくれよ」と、宝物の一つを指差す。",
+          "effects": {
+            "kirari_love": 3
+          },
+          "next": "kirari_event2_end_A"
+        },
+        {
+          "text": "「なんで、俺に見せてくれたんだ？」と、彼女の真意を尋ねる。",
+          "effects": {
+            "kirari_love": 1
+          },
+          "next": "kirari_event2_end_B"
+        },
+        {
+          "text": "「そうだな…俺も宝物を探してみようかな」と、彼女の世界に参加する意思を見せる。",
+          "effects": {
+            "kirari_love": 1
+          },
+          "next": "kirari_event2_end_C"
+        }
+      ]
+    },
+    "kirari_event2_end_A": {
+      "type": "text",
+      "image": "kirari_normal.jpg",
+      "messages": [
+        {
+          "name": "ナレーション",
+          "text": "祥が指差したのは、少し錆びた古い鍵だった。きらりはそれを手に取ると、目をキラキラさせながら語り始める。"
+        },
+        {
+          "name": "星野 きらり",
+          "text": "「これはね、『忘れられた図書館の扉を開ける鍵』なの！ この図書館には、誰も読んだことのない物語がたくさん眠ってるんだって。いつか二人で、その扉を探しに行こうね！」"
+        },
+        {
+          "name": "ナレーション",
+          "text": "突拍子もない話だったが、その物語を語るきらりの横顔は、今まで見たどんな顔よりも輝いていた。祥は、彼女がただの不思議な子なのではなく、この世界を誰よりも豊かに見ている特別な子なのだと知る。彼女の世界に足を踏み入れた祥は、彼女の物語を共有する、唯一無二の「共有者」になったのだ。"
+        }
+      ],
+      "next": "interlude_final"
+    },
+    "kirari_event2_end_B": {
+      "type": "text",
+      "image": "kirari_normal.jpg",
+      "messages": [
+        {
+          "name": "ナレーション",
+          "text": "祥の誠実な問いかけに、きらりは少し驚いたように目を丸くしたが、すぐに嬉しそうにふわりと笑った。"
+        },
+        {
+          "name": "星野 きらり",
+          "text": "「んーとね、祥くんなら、きっと笑わないでくれると思ったから。私の『宝物』を、『ガラクタ』だって言わないでいてくれると思ったから」"
+        },
+        {
+          "name": "ナレーション",
+          "text": "その答えに、祥は彼女が感じてきた孤独の一端に触れた気がした。祥は彼女にとって「自分の世界を脅かさない、信頼できる人」として認識される。しかし、祥はまだ彼女の世界の「傍観者」に過ぎない。彼女の宝物の本当の意味や、その力の根源にある「孤独」にまでは、まだ触れることができずにいた。"
+        }
+      ],
+      "next": "interlude_final"
+    },
+    "kirari_event2_end_C": {
+      "type": "text",
+      "image": "kirari_normal.jpg",
+      "messages": [
+        {
+          "name": "ナレーション",
+          "text": "祥の言葉に、きらりの表情がぱあっと明るくなる。"
+        },
+        {
+          "name": "星野 きらり",
+          "text": "「ほんと！？ じゃあ、一緒に宝探しだ！ 私の仲間だね、祥くん！」"
+        },
+        {
+          "name": "ナレーション",
+          "text": "その日から、祥はきらりと一緒に「宝探し」をする、最高の「遊び仲間」になった。放課後、二人は校庭の隅などを探検し、様々な「宝物」を見つけては笑い合った。祥は彼女のユニークな感性を楽しみ、受け入れた。しかし、それはあくまで「楽しい遊び」の範疇であり、彼女がなぜ宝物を集めるのか、その根源にある切ない願いや孤独に寄り添うには、まだ一歩足りていなかった。"
+        }
+      ],
+      "next": "interlude_final"
+    },
+    "interlude_final": {
+      "type": "text",
+      "image": "gakkou.png",
+      "messages": [
+        {
+          "name": "ナレーション",
+          "text": "7月。夏休みを間近に控え、クラスは浮き足立っていた。窓の外からは、野球部の掛け声と、蝉の鳴き声が聞こえてくる。"
+        },
+        {
+          "name": "ナレーション",
+          "text": "俺は、一人、あるいは複数の少女との間に生まれた、特別な関係に戸惑い、そして心を躍らせていた。誰かの秘密に触れ、誰かの夢を知り、誰かの世界を共有した。もう、ただのクラスメイトではいられない。"
+        },
+        {
+          "name": "ナレーション",
+          "text": "この複雑で、甘酸っぱくて、少しだけ苦しい関係は、一体どこへ向かうのだろうか。照りつけるような日差しと、入道雲が、俺たちの運命の夏が、もうすぐそこまで来ていることを告げていた"
+        }
+      ],
+      "next": "check_final_ending"
+    },
+    "check_final_ending": {
+      "type": "logic",
+      "conditions": [
+        {
+          "if": "loveMeters.hina_love >= 5 && loveMeters.shiori_love >= 5 && loveMeters.kirari_love >= 5",
+          "goto": "invite_bad_end"
+        },
+        {
+          "if": "loveMeters.hina_love >= 3 && loveMeters.hina_love <= 4 && loveMeters.shiori_love >= 3 && loveMeters.shiori_love <= 4 && loveMeters.kirari_love >= 3 && loveMeters.kirari_love <= 4",
+          "goto": "ending_harem"
+        },
+        {
+          "if": "loveMeters.hina_love == loveMeters.shiori_love && loveMeters.hina_love >= loveMeters.kirari_love + 2",
+          "goto": "choice_final_hina_shiori"
+        },
+        {
+          "if": "loveMeters.shiori_love == loveMeters.kirari_love && loveMeters.shiori_love >= loveMeters.hina_love + 2",
+          "goto": "choice_final_shiori_kirari"
+        },
+        {
+          "if": "loveMeters.kirari_love == loveMeters.hina_love && loveMeters.kirari_love >= loveMeters.shiori_love + 2",
+          "goto": "choice_final_kirari_hina"
+        },
+        {
+          "if": "loveMeters.hina_love >= loveMeters.shiori_love + 2 && loveMeters.hina_love >= loveMeters.kirari_love + 2",
+          "goto": "ending_true_hina"
+        },
+        {
+          "if": "loveMeters.shiori_love >= loveMeters.hina_love + 2 && loveMeters.shiori_love >= loveMeters.kirari_love + 2",
+          "goto": "ending_true_shiori"
+        },
+        {
+          "if": "loveMeters.kirari_love >= loveMeters.hina_love + 2 && loveMeters.kirari_love >= loveMeters.shiori_love + 2",
+          "goto": "ending_true_kirari"
+        }
+      ],
+      "default_goto": "ending_normal"
+    },
+    "choice_final_hina_shiori": {
+      "type": "choice",
+      "image": "sannin.jpg",
+      "messages": [
+        {
+          "name": "ナレーション",
+          "text": "夏祭りの日、祥は陽菜と栞の二人から、同時に、同じ時刻、別々の場所へと誘われる。残酷な神様の悪戯か、それとも、俺の優柔不断さが招いた必然か。俺は、選ばなければならない。たった一人を。"
+        }
+      ],
+      "choices": [
+        {
+          "text": "陽菜が待つ、【駅前の時計台】へ向かう。",
+          "next": "after_story_shiori"
+        },
+        {
+          "text": "栞が待つ、【神社の境内】へ向かう。",
+          "next": "after_story_hina"
+        }
+      ]
+    },
+    "choice_final_shiori_kirari": {
+      "type": "choice",
+      "image": "sannin.jpg",
+      "messages": [
+        {
+          "name": "ナレーション",
+          "text": "夏祭りの日、祥は栞ときらりの二人から、同時に、同じ時刻、別々の場所へと誘われる。月のように静謐な彼女か、星のように無垢な彼女か。俺が行ける場所は、一つだけ。"
+        }
+      ],
+      "choices": [
+        {
+          "text": "栞が待つ、【神社の境内】へ向かう。",
+          "next": "after_story_kirari"
+        },
+        {
+          "text": "きらりが待つ、【街外れの丘】へ向かう。",
+          "next": "after_story_shiori"
+        }
+      ]
+    },
+    "choice_final_kirari_hina": {
+      "type": "choice",
+      "image": "sannin.jpg",
+      "messages": [
+        {
+          "name": "ナレーション",
+          "text": "夏祭りの日、祥はきらりと陽菜の二人から、同時に、同じ時刻、別々の場所へと誘われる。これはゲームじゃない。現実だ。俺の選択が、誰かを笑顔にし、誰かを悲しませる。"
+        }
+      ],
+      "choices": [
+        {
+          "text": "きらりが待つ、【街外れの丘】へ向かう。",
+          "next": "after_story_hina"
+        },
+        {
+          "text": "陽菜が待つ、【駅前の時計台】へ向かう。",
+          "next": "after_story_kirari"
+        }
+      ]
+    },
+    "after_story_hina": {
+      "type": "text",
+      "image": "hina_normal.jpg",
+      "messages": [
+        {
+          "name": "ナレーション",
+          "text": "後日、祥は陽菜が自力で中学時代の親友と和解しようとしているのを見かける。祥に気づくと、一瞬だけ寂しそうな顔をするが、すぐに太陽のような笑顔で手を振ってくれる。"
+        }
+      ],
+      "next": "ending_true_shiori_or_kirari"
+    },
+    "after_story_shiori": {
+      "type": "text",
+      "image": "shiori_normal.jpg",
+      "messages": [
+        {
+          "name": "ナレーション",
+          "text": "後日、祥は栞が自力でピアノコンクールに出場し、見事に入賞したことを人づてに知る。遠くから見つめる祥に気づいた彼女は、一瞬だけ複雑な表情を見せるが、やがて凛とした笑顔で一礼して去っていく。"
+        }
+      ],
+      "next": "ending_true_hina_or_kirari"
+    },
+    "after_story_kirari": {
+      "type": "text",
+      "image": "kirari_normal.jpg",
+      "messages": [
+        {
+          "name": "ナレーション",
+          "text": "夏休み明け、祥はきらりが一人で丘の上にいるのを見かける。「この間の夏祭り、空のお母さん、笑ってたよ」と少し寂しそうに報告してくれる。彼女は少しだけ強くなったが、その隣にいるのはもう祥ではない。"
+        }
+      ],
+      "next": "ending_true_hina_or_shiori"
+    },
+    "ending_true_hina_or_kirari": {
+      "type": "logic",
+      "conditions": [
+        {
+          "if": "loveMeters.hina_love > loveMeters.kirari_love",
+          "goto": "ending_true_hina"
+        }
+      ],
+      "default_goto": "ending_true_kirari"
+    },
+    "ending_true_hina_or_shiori": {
+      "type": "logic",
+      "conditions": [
+        {
+          "if": "loveMeters.hina_love > loveMeters.shiori_love",
+          "goto": "ending_true_hina"
+        }
+      ],
+      "default_goto": "ending_true_shiori"
+    },
+    "ending_true_shiori_or_kirari": {
+      "type": "logic",
+      "conditions": [
+        {
+          "if": "loveMeters.shiori_love > loveMeters.kirari_love",
+          "goto": "ending_true_shiori"
+        }
+      ],
+      "default_goto": "ending_true_kirari"
+    },
+    "ending_true_shiori": {
+      "type": "ending",
+      "image": "shiori_true_end.png",
+      "messages": [
+        {
+          "name": "ナレーション",
+          "text": "夏休み、祥は栞が出場を決意したピアノコンクールに向けて、毎日彼女の練習に付き合う。そしてコンクール当日。祥の応援を胸に、栞はステージで自分の想いのすべてを込めた「月光ソナタ」を演奏する。"
+        },
+        {
+          "name": "ナレーション",
+          "text": "結果は入賞には届かなかったが、彼女の表情は晴れやかだった。その帰り道、夏祭りの花火が上がる公園で、栞は祥に「音大を目指す」という決意を伝える。"
+        },
+        {
+          "name": "白鳥 栞",
+          "text": "「恋頓くんが、私の音を見つけてくれたから…」"
+        },
+        {
+          "name": "恋頓 祥",
+          "text": "「…栞。俺、栞のことが好きだ。これからも、隣で栞のピアノを、一番近くで聴いていたい」"
+        },
+        {
+          "name": "白鳥 栞",
+          "text": "「私も、です。私も、祥さんのことが、ずっと…好きでした」"
+        },
+        {
+          "name": "ナレーション",
+          "text": "二人は静かに寄り添い、夜空に咲く花火を見上げる。"
+        },
+        {
+          "name": "【エピローグ】",
+          "text": "自分の夢に向かって歩き始めた栞と、その一番の理解者となった祥。旧音楽室は二人だけの特別な場所となり、彼女が奏でるピアノの音色のように、穏やかで幸せな時間が続いていく。【トゥルーエンド】"
+        }
+      ]
+    },
+    "ending_true_kirari": {
+      "type": "ending",
+      "image": "kirari_true_end.png",
+      "messages": [
+        {
+          "name": "ナレーション",
+          "text": "夏祭り当日、きらりは祥に「空を元気づけるおまじないを手伝ってほしい」と頼み、二人で街外れの丘へ向かう。そこで祥は、彼女にとって「空」とは、幼い頃に亡くなった母親そのものであることを知る。"
+        },
+        {
+          "name": "ナレーション",
+          "text": "雨が降り出し、きらりが絶望しかけたその時、祥は「一人じゃないだろ！」と叫び、彼女と一緒に宝物を空に投げる。すると奇跡が起き、雨雲が晴れて満点の星空が現れる。"
+        },
+        {
+          "name": "星野 きらり",
+          "text": "「お母さん… 笑ってる…」"
+        },
+        {
+          "name": "恋頓 祥",
+          "text": "「きらり。好きだ。俺が、きらりの隣にずっといる。もう、一人にはさせない」"
+        },
+        {
+          "name": "星野 きらり",
+          "text": "「私も、好き。祥くんは、私の一番星だよ」"
+        },
+        {
+          "name": "ナレーション",
+          "text": "二人は、満点の星空の下で、そっとキスを交わす。"
+        },
+        {
+          "name": "【エピローグ】",
+          "text": "亡き母への想いを昇華させ、孤独から解放されたきらり。彼女の不思議な力はなくなったが、隣には一番の理解者である祥がいる。二人の世界は、どんな宝物よりもキラキラと輝き始める。【トゥルーエンド】"
+        }
+      ]
+    },
+    "ending_harem": {
+      "type": "ending",
+      "image": "harem_end.png",
+      "messages": [
+        {
+          "name": "ナレーション",
+          "text": "夏祭りの日、祥は三人のヒロインから同時に別々の場所に誘われるという、とんでもない状況に陥る。親友・法太の「馬鹿になれ」という謎のアドバイスを信じ、三つの場所を全力疾走で何度も往復する暴挙に出る。"
+        },
+        {
+          "name": "ナレーション",
+          "text": "疲れ果てた頃、三人にファミレスへ呼び出され、最後の審判を受けることに。"
+        },
+        {
+          "name": "天宮 陽菜",
+          "text": "「で？結局、祥は、誰が一番なの？」"
+        },
+        {
+          "name": "恋頓 祥",
+          "text": "「選べません！ 陽菜も、栞も、きらりも、みんな好きだ！ だから、誰か一人なんて、俺には選べない！ ごめんなさい！」"
+        },
+        {
+          "name": "ナレーション",
+          "text": "祥がすべてを叫び終えると、三人は顔を見合わせて笑い出した。そして、声を揃えて、とんでもない提案をする。"
+        },
+        {
+          "name": "陽菜・栞・きらり",
+          "text": "「「「じゃあ、みんなで、祥くんの彼女になればいいんじゃない？」」」"
+        },
+        {
+          "name": "恋頓 祥",
+          "text": "「…………………はあああああ！？」"
+        },
+        {
+          "name": "ナレーション",
+          "text": "祥の絶叫が響き渡り、少し(いや、かなり)不思議で、とんでもなく騒がしくて、だけど最高に幸せな、虹色の夏が始まったのだった。【ハーレムエンド】"
+        }
+      ]
+    },
+    "ending_normal": {
+      "type": "ending",
+      "image": "normal_end.png",
+      "messages": [
+        {
+          "name": "ナレーション",
+          "text": "結局、祥は誰か一人の「特別」になることはなかった。陽菜とはたまにアニメの話で盛り上がるクラスメイト。栞とは図書室で会釈を交わす顔見知り。きらりとは時々ツッコミを入れる相手。"
+        },
+        {
+          "name": "ナレーション",
+          "text": "夏休み前日。女子たちが夏祭りの計画で盛り上がっているのを、祥は少し離れた場所から眺めていた。彼女たちの輪の中に、祥はいない。"
+        },
+        {
+          "name": "恋頓 祥",
+          "text": "(もし、もう少しだけ勇気を出していたら、何か違う「夏」が待っていたのかもしれないな…)"
+        },
+        {
+          "name": "ナレーション",
+          "text": "そんな小さな心残りを抱えながらも、「まあ、これも一つの現実だ」と自分に言い聞かせる。親友の法太との、いつもと変わらない夏休みが始まる。特別なことは何もなかったけど、それなりに楽しい学校生活。祥は、そんな平凡な日常の延長線上にある夏休みへと歩き出した。【ノーマルエンド】"
+        }
+      ]
+    },
+    "ending_horoniga": {
+      "type": "ending",
+      "image": "horoniga_end.jpg",
+      "messages": [
+        {
+          "name": "ナレーション",
+          "text": "最初のイベントで、祥は陽菜、栞、きらりの全員に、デリカシーのない言動で嫌われてしまった。教室での居場所はなくなり、女子たちの視線は冷たい。そんな祥と唯一、まともに口を利いてくれるのは親友の法太だけだった。"
+        },
+        {
+          "name": "ナレーション",
+          "text": "夏休み前日の放課後。祥は、その友情なのか恋心なのかわからない気持ちを、法太に打ち明けようとしてしまう。"
+        },
+        {
+          "name": "恋頓 祥",
+          "text": "「もしかしたら俺は…」"
+        },
+        {
+          "name": "能里 法太",
+          "text": "「…祥。悪いけど、そういうのはない」"
+        },
+        {
+          "name": "ナレーション",
+          "text": "それは、友情を壊したくないという、法太なりの優しさが滲む、きっぱりとした拒絶だった。いつもと同じ帰り道。いつもと同じラーメンの味。でも、今日だけはほんの少しだけ、しょっぱく感じた。恋愛物語の主人公にはなれなかった。一つの淡い恋心らしきものは、芽生える前に摘み取られた。それでも、隣にはまだ親友がいる。それだけで、まあ、悪くないか、なんて。祥は空っぽの夏へと、歩き出した。【ほろにがエンド】"
+        }
+      ]
+    },
+    "ending_true_hina": {
+      "type": "ending",
+      "image": "yukata.jpg",
+      "messages": [
+        {
+          "name": "ナレーション",
+          "text": "夏祭り当日、祥と陽菜は賑やかな人波を抜け、二人で祭りを楽しんでいた。花火が始まる少し前、二人は喧騒から離れた神社の石段に腰を下ろす。"
+        },
+        {
+          "name": "恋頓 祥",
+          "text": "「このまま過去に縛られているのは、陽菜らしくない。陽菜自身の力で、本当の笑顔を取り戻してほしい。俺は、陽菜の心からの笑顔が見たいんだ」"
+        },
+        {
+          "name": "天宮 陽菜",
+          "text": "「……会う。私、ミサキに会う。自分の口で、ちゃんと謝りたい。そして、私の本当の気持ちを、伝えたい……！」"
+        },
+        {
+          "name": "ナレーション",
+          "text": "陽菜は自らの力で親友と和解を果たす。すべてが終わり、花火がよく見える川沿いの土手で、二人は並んで夜空を見上げる。"
+        },
+        {
+          "name": "恋頓 祥",
+          "text": "「俺、陽菜のことが好きだ。これからもずっと、隣でその本当の笑顔を見ていたい」"
+        },
+        {
+          "name": "天宮 陽菜",
+          "text": "「……知ってるよ。私も、祥のことが好きだよ。君がいてくれたから、私は強くなれたの」"
+        }
+      ],
+      "next": "ending_true_hina_part2"
+    },
+    "ending_true_hina_part2": {
+      "type": "ending",
+      "image": "hina_true_end.png",
+      "messages": [
+        {
+          "name": "ナレーション",
+          "text": "二人が想いを確かめ合った瞬間、夜空に大輪の花火が打ち上がる。光に照らされた二人は、自然と引き寄せられ、キスをする。"
+        },
+        {
+          "name": "【エピローグ】",
+          "text": "自らの力でトラウマを乗り越え、本当の笑顔を取り戻した陽菜と、そんな彼女を支え続けた祥。二人は固く手を繋ぎ、輝く未来へと歩き出す。【トゥルーエンド】"
+        }
+      ]
+    },
+    "invite_bad_end": {
+      "type": "text",
+      "image": "sumaho.jpg",
+      "messages": [
+        {
+          "name": "天宮 陽菜",
+          "text": "祥へ。明日の夏祭り、一緒に行きたいな。最後に、どうしても話したいことがあるの。18時に、神社で待ってる。…私にとって、すごく大事な話。だから、来てくれると嬉しいな。陽菜"
+        },
+        {
+          "name": "白鳥 栞",
+          "text": "恋頓くんへ。明日の夕方、もしよかったら夏祭りにご一緒しませんか。18時に、神社でお待ちしています。…きっと、私の人生で一番、大切なお話になるとおもいます。栞"
+        },
+        {
+          "name": "星野 きらり",
+          "text": "祥くんへ。明日の夏祭り、一緒に行こう！ 空のキラキラが、一年で一番綺麗な日なんだって！ 祥くんと一緒に見たいな。18時に、神社で待ってるね！ お願い！ きらり"
+        },
+        {
+          "name": "ナレーション",
+          "text": "３人から同じ時間と同じ場所に誘われてしまった・・・誰かを選べば誰かが傷つく・・・どうしたらいいんだ・・・誰かひとりなんて選べないよ・・・"
+        }
+      ],
+      "next": "ending_bad_part1"
+    },
+    "ending_bad_part1": {
+      "type": "ending",
+      "image": "bad_end.png",
+      "messages": [
+        {
+          "name": "ナレーション",
+          "text": "夏祭りの夜。誰か一人を選ぶことができず、曖昧な態度をとり続ける祥に、三人のヒロインが神社の裏手で最後の決断を迫る。しかし、祥は俯き、答えることができない。"
+        },
+        {
+          "name": "天宮 陽菜",
+          "text": "「そっか…。選べないんだ」"
+        },
+        {
+          "name": "ナレーション",
+          "text": "その言葉を合図に、三人の表情が能面のように消える。"
+        },
+        {
+          "name": "白鳥 栞",
+          "text": "「ずっと、ずっと、この学校に縛られていたのですよ。あなたに『未練』を断ち切ってもらって、成仏するために」"
+        },
+        {
+          "name": "星野 きらり",
+          "text": "「祥くんなら、できると思ったのにな」"
+        },
+        {
+          "name": "ナレーション",
+          "text": "彼女たちの姿がぐにゃりと歪み、髪は色を失い、浴衣は黒く染まり、足元が透けていく。それはもう、祥の知っている彼女たちではなかった。愛を乞うことに疲れ果て、憎悪に染まった悪霊の姿だった。"
+        }
+      ],
+      "next": "ending_bad_part2"
+    },
+    "ending_bad_part2": {
+      "type": "ending",
+      "image": "bad_end.png",
+      "messages": [
+        {
+          "name": "恋頓 祥",
+          "text": "「ひっ…！」"
+        },
+        {
+          "name": "陽菜・栞・きらり",
+          "text": "「「「選んでくれないなら、いっそ、こっちに連れて行くだけ」」」"
+        },
+        {
+          "name": "ナレーション",
+          "text": "三つの影が、声にならない悲鳴を上げる祥に、ゆっくりとその手を伸ばしてくる。その瞬間、夜空に打ち上がった花火の音が、祥の最後の絶叫を、夏祭りの喧騒の中へと無情に掻き消していった。【バッドエンド】"
+        }
+      ]
+    }
+  }
+}
