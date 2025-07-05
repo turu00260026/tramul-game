@@ -188,3 +188,158 @@ html, body {
 .hidden {
     display: none !important;
 }
+
+/* ===== スマホ対応（レスポンシブデザイン） ===== */
+@media screen and (max-width: 768px) {
+    html, body {
+        overflow-x: hidden;
+        overflow-y: auto;
+    }
+    
+    #game-container {
+        padding: 0;
+        align-items: flex-start;
+    }
+    
+    #title-screen, #game-screen {
+        max-width: 100%;
+        max-height: none;
+        min-height: 100vh;
+        border: none;
+        box-shadow: none;
+    }
+    
+    #title-image {
+        max-width: 90%;
+        max-height: 60vh;
+        object-fit: contain;
+    }
+    
+    #start-button {
+        margin-top: 20px;
+        padding: 12px 30px;
+        font-size: 1.3em;
+        width: 80%;
+        max-width: 300px;
+    }
+    
+    #image-area {
+        flex: 2;
+        min-height: 40vh;
+        max-height: 50vh;
+    }
+    
+    #scene-image {
+        width: 100%;
+        height: 100%;
+        object-fit: contain; /* coverからcontainに変更で全体表示 */
+        object-position: center;
+    }
+    
+    #textbox-area {
+        min-height: 200px;
+        padding: 15px 20px;
+        flex: 1;
+    }
+    
+    #character-name {
+        font-size: 1em;
+        padding: 4px 12px;
+        top: -28px;
+        left: 20px;
+    }
+    
+    #message-text {
+        font-size: 1.1em;
+        line-height: 1.6;
+        padding-bottom: 50px;
+    }
+    
+    .choice-button {
+        padding: 12px;
+        font-size: 1em;
+        margin-bottom: 5px;
+    }
+    
+    #back-button, #next-button {
+        font-size: 1.4em;
+        bottom: 15px;
+    }
+    
+    #back-button {
+        left: 15px;
+    }
+    
+    #next-button {
+        right: 15px;
+    }
+    
+    #restart-button {
+        bottom: 15px;
+        right: 15px;
+        font-size: 0.9em;
+        padding: 6px 12px;
+    }
+}
+
+/* ===== 小さなスマホ画面対応 ===== */
+@media screen and (max-width: 480px) {
+    #title-image {
+        max-width: 95%;
+        max-height: 50vh;
+    }
+    
+    #start-button {
+        font-size: 1.2em;
+        padding: 10px 25px;
+        width: 90%;
+    }
+    
+    #image-area {
+        min-height: 35vh;
+        max-height: 45vh;
+    }
+    
+    #textbox-area {
+        min-height: 180px;
+        padding: 12px 15px;
+    }
+    
+    #character-name {
+        font-size: 0.9em;
+        left: 15px;
+    }
+    
+    #message-text {
+        font-size: 1em;
+        padding-bottom: 45px;
+    }
+    
+    .choice-button {
+        font-size: 0.95em;
+        padding: 10px;
+    }
+}
+
+/* ===== 横向き表示対応 ===== */
+@media screen and (max-width: 768px) and (orientation: landscape) {
+    #title-screen, #game-screen {
+        min-height: 100vh;
+    }
+    
+    #image-area {
+        flex: 1.5;
+        min-height: 30vh;
+        max-height: 40vh;
+    }
+    
+    #textbox-area {
+        min-height: 160px;
+        flex: 1;
+    }
+    
+    #message-text {
+        font-size: 1em;
+        line-height: 1.5;
+    }
+}
